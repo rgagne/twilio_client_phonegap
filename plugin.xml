@@ -9,7 +9,9 @@
     <author>Stevie Graham/Lyle Pratt/Jeff Linwood</author>
     <license>Apache</license>
 
-    <asset src="www/tcPlugin.js" target="js/tcPlugin.js" />
+    <js-module src="www/CameraPopoverOptions.js" name="tcPlugin">
+        <clobbers target="tcPlugin" />
+    </js-module>
 
     <!-- android -->
     <platform name="android">
@@ -20,7 +22,7 @@
             <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-             <activity android:name="com.phonegap.plugins.twilioclient.IncomingConnectionActivity"  android:theme="@android:style/Theme.NoDisplay"/>
+            <activity android:name="com.phonegap.plugins.twilioclient.IncomingConnectionActivity"  android:theme="@android:style/Theme.NoDisplay"/>
             <service android:name="com.twilio.client.TwilioClientService" android:exported="false" />
         </config-file>
 
