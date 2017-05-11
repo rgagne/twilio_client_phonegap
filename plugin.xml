@@ -57,7 +57,16 @@
                 <string>audio</string>
             </array>
         </config-file>
-        
+
+        <source-file src="src/ios/Libraries/libTwilioClient.a" framework="true"/>
+        <source-file src="src/ios/Libraries/libssl.a" framework="true"/>
+        <source-file src="src/ios/Libraries/libcrypto.a" framework="true"/>
+        <header-file src="src/ios/Headers/TCConnection.h"/>
+        <header-file src="src/ios/Headers/TCConnectionDelegate.h"/>
+        <header-file src="src/ios/Headers/TCDevice.h"/>
+        <header-file src="src/ios/Headers/TCDeviceDelegate.h"/>
+        <header-file src="src/ios/Headers/TCPresenceEvent.h"/>
+        <header-file src="src/ios/Headers/TwilioClient.h"/>
 
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
