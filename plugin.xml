@@ -9,7 +9,7 @@
     <author>Stevie Graham/Lyle Pratt/Jeff Linwood</author>
     <license>Apache</license>
 
-    <js-module src="www/CameraPopoverOptions.js" name="tcPlugin">
+    <js-module src="www/tcPlugin.js" name="tcPlugin">
         <clobbers target="tcPlugin" />
     </js-module>
 
