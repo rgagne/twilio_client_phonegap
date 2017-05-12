@@ -1,6 +1,8 @@
 # Fork info
 
-This fork of the Twilio Client Phonegap plugin bundles the headers and libraries and is self contained, specifically so that it would work with Adobe Build.
+This fork of the Twilio Client Phonegap plugin bundles the headers and libraries so that it is self contained. Primary goal was to enable use via Adobe Build.
+
+Bundled version of Twilio client SDK: 1.2.11-rc5
 
 # Twilio Client Phonegap plugins for iOS and Android (version 1.0.7)
 
@@ -50,7 +52,7 @@ cordova plugin add  https://github.com/jefflinwood/twilio_client_phonegap.git
 
 ```
 
-
+(These steps can be skipped)
 - After installing the Twilio Client plugin, you will need to download and install the Twilio Client SDK for iOS - follow the directions provided after plugman finishes.
 
 # Android only
