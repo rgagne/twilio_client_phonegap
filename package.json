@@ -1,0 +1,17 @@
+{
+    "name": "com.phonegap.plugins.twilioclient",
+    "version": "1.0.7",
+    "cordova": {
+      "id": "com.phonegap.plugins.twilioclient",
+      "platforms": [
+        "android",
+        "ios"
+      ]
+    },
+    "description": "A native Android/iOS wheel selector plugin for Cordova or Ionic projects (pick numbers, strings, etc)",
+     "repository": {
+      "type": "git",
+      "url": "https://github.com/rgagne/twilio_client_phonegap"
+    }
+  }
+  
